@@ -6,11 +6,25 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "John Crisostomo",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-preset-env": "^1.5.2",
     "jest": "^20.0.4"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 50,
+        "branches": 50,
+        "functions": 50,
+        "lines": 100,
+      }
+    }
   }
 }
