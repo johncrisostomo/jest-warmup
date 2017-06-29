@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "John Crisostomo",
   "license": "ISC",
@@ -23,7 +23,7 @@
         "statements": 50,
         "branches": 50,
         "functions": 50,
-        "lines": 100,
+        "lines": 100
       }
     }
   }
